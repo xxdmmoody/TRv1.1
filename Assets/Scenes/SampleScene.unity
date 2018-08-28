@@ -150,7 +150,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 26507212}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e767d05b3c27cfc46b776aa30860bf56, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -439,6 +439,7 @@ GameObject:
   - component: {fileID: 258587558}
   - component: {fileID: 258587562}
   - component: {fileID: 258587563}
+  - component: {fileID: 258587564}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -467,7 +468,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -540,6 +541,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!65 &258587564
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 258587557}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &286041638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4008474577210152, guid: c5288a0609f894f45b495b14c20f641a,
@@ -903,7 +916,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 872995765}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e767d05b3c27cfc46b776aa30860bf56, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -988,7 +1001,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 879472519}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e767d05b3c27cfc46b776aa30860bf56, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1003,7 +1016,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1338,7 +1351,7 @@ MeshCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1796857357}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 12bb69023c4acee4a8df41e442e8ce06, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1497,7 +1510,7 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1967373709}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e767d05b3c27cfc46b776aa30860bf56, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
